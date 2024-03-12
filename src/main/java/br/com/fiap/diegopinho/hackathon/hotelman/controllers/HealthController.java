@@ -1,4 +1,4 @@
-package br.com.fiap.diegopinho.hackathon.controllers;
+package br.com.fiap.diegopinho.hackathon.hotelman.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

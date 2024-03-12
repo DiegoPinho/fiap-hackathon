@@ -1,0 +1,115 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "fiap - hackathon",
+    "dateExported": "2024-03-12T03:15:26.035Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "883618d1-bda4-4141-b3bb-225ff1be4420",
+            "name": "guests",
+            "containerId": "",
+            "created": "2024-03-12T03:03:57.776Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "ea3dc14a-24f4-4673-8a6b-5389400885e3",
+            "colId": "a737295e-d008-4b34-b27e-dc987a3c5b7a",
+            "containerId": "",
+            "name": "/health",
+            "url": "http://localhost:8081/health",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-12T02:58:26.595Z",
+            "modified": "2024-03-12T02:59:30.022Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4ddc1e28-3e17-47af-a34e-1c760e5be263",
+            "colId": "a737295e-d008-4b34-b27e-dc987a3c5b7a",
+            "containerId": "883618d1-bda4-4141-b3bb-225ff1be4420",
+            "name": "/guests",
+            "url": "http://localhost:8081/guests",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-12T03:04:05.748Z",
+            "modified": "2024-03-12T03:04:12.933Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "957e8f64-5c04-48da-a9cf-d0584def05a4",
+            "colId": "a737295e-d008-4b34-b27e-dc987a3c5b7a",
+            "containerId": "883618d1-bda4-4141-b3bb-225ff1be4420",
+            "name": "/guests/:id",
+            "url": "http://localhost:8081/guests/1",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-03-12T03:12:32.966Z",
+            "modified": "2024-03-12T03:12:52.626Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "70088266-6846-47fb-915a-4fd6368f971c",
+            "colId": "a737295e-d008-4b34-b27e-dc987a3c5b7a",
+            "containerId": "883618d1-bda4-4141-b3bb-225ff1be4420",
+            "name": "/guests",
+            "url": "http://localhost:8081/guests",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-12T03:04:16.052Z",
+            "modified": "2024-03-12T03:10:43.349Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"country\": \"Brasil\",\n  \"cpf\": \"41800196866\",\n  \"passport\": \"999999999999\",\n  \"fullName\": \"Robert Test Johnson\",\n  \"birth\": \"21-05-1992\",\n  \"address\": \"Rua de Tangamandápio, 77\",\n  \"phone\": \"(11) 971136112\",\n  \"email\": \"robert.test@gmail.com\"\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "3bea4acf-1cb2-4bce-85fc-1755f722abbb",
+            "colId": "a737295e-d008-4b34-b27e-dc987a3c5b7a",
+            "containerId": "883618d1-bda4-4141-b3bb-225ff1be4420",
+            "name": "/guests/:id",
+            "url": "http://localhost:8081/guests/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-12T03:11:02.095Z",
+            "modified": "2024-03-12T03:11:12.656Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"country\": \"Brasil\",\n  \"cpf\": \"41800196865\",\n  \"passport\": \"999999999999\",\n  \"fullName\": \"Robert Test Johnson\",\n  \"birth\": \"21-05-1992\",\n  \"address\": \"Rua de Tangamandápio, 77\",\n  \"phone\": \"(11) 971136112\",\n  \"email\": \"robert.test@gmail.com\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "9986767d-a05c-4185-8ad9-a054f88bd53a",
+            "colId": "a737295e-d008-4b34-b27e-dc987a3c5b7a",
+            "containerId": "883618d1-bda4-4141-b3bb-225ff1be4420",
+            "name": "/guests/:id",
+            "url": "http://localhost:8081/guests/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-12T03:11:23.567Z",
+            "modified": "2024-03-12T03:11:29.140Z",
+            "headers": [],
+            "params": [],
+            "reqType": "put",
+            "tests": []
+        }
+    ]
+}
